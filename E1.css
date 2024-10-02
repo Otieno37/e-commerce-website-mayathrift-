@@ -1,0 +1,433 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+    
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 30px;
+    color: rgb(103, 102, 102);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    transition: all 0.3s ease-in;
+    padding-left: 2px;
+}
+.navl{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    padding-right: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+.search{
+    display: flex;
+    border: 1px grey solid;
+    align-items: center;
+    background-color: rgb(255, 253, 253);
+    border-radius: 20px;
+    box-shadow: 0 1px rgb(0, 0green, 0lue 0.75s);
+    width:max-content;
+    transition: 0.3s;
+    
+    
+
+}
+
+.sicon{
+    margin-left:px;
+    font-size:small;
+}
+.sbar{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-right: 90%;
+}
+
+.sbar::placeholder{
+    font-size: small;
+}
+.navicon{
+    cursor: pointer;
+}
+.navicon:hover{
+    transition: all 0.4s ease-in-out;
+
+}
+
+/* container 1 */
+.rowcont1{
+    background-image:url(m-e10.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: contain;
+    border-radius: 9px;
+    margin: 18px;
+    margin-top: 60px;
+
+}
+.cont1{
+    padding: 200px;
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+    
+    
+
+}
+.hc1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    font-weight:bolder;
+    
+}
+.bt1{
+    padding: 15px;
+    background-color: white;
+    border-radius: 6px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    float: right;
+    margin-right: 150px;
+}
+.bt1:hover{
+    background-color:  rgb(100, 100, 199);
+    transition: all 0.6s ease;
+    color: white;
+}
+
+/* container 2 */
+.hc2{
+    margin-left: 30px;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.h3c2{
+    color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row2{
+    display: flex;
+    margin-left: 30px;
+}
+.kijiti2{
+    margin-left: 130px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+    font-size:small ;
+}
+.kj{
+    font-size: xx-large;
+    margin: 6px;
+}
+.row22{
+    display: flex;
+    margin-left: 30px;
+}
+.row22::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.t2{
+    padding: 20px;
+}
+.t2 h4{
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.t2 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.8;
+    font-size: medium;
+
+}
+/* container 3 */
+.row33{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+}
+.t31{
+    width: 20%;
+    height: 250px;
+    border: 1px solid;
+    box-shadow: 4px 4px rgb(207, 206, 206);
+    box-sizing: border-box;
+    background-image: url(m-e9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    border: none;
+    
+}
+
+.t32{width: 20%;
+    height: 250px;
+    border: 1px solid;
+    box-shadow: 4px 4px rgb(207, 206, 206);
+    box-sizing: border-box;
+    background-image: url(m-e7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    border: none;
+
+}
+.t33{width: 20%;
+    height: 250px;
+    border: 1px solid;
+    box-shadow: 4px 4px rgb(207, 206, 206);
+    box-sizing: border-box;
+    background-image: url(m-e6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    border: none;
+
+}
+.t34{
+    width: 20%;
+    height: 250px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 4px 4px rgb(207, 206, 206);
+    box-sizing: border-box;
+    background-image:url(m-e8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+
+}
+.bt3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    flex-wrap: wrap;
+}
+.bt31{
+    padding: 9px;
+    background-color: white;
+    border-radius: 6px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.bt31:hover{
+    background-color: rgb(100, 100, 199);
+    color: white;
+    transition: all 0.6s ease;
+}
+/* container 4 */
+.rowcont4{
+    background-color: aliceblue;
+
+}
+.row4{
+    display: flex;
+    margin: 80px;
+    justify-content: center;
+
+    
+}
+.cont4{
+    
+    align-items: center;
+    width: 25%;
+    
+    
+}
+.hc4{
+    padding-top: 70px;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 60px;
+}
+.p41{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.p42{
+    color: darkblue;
+    font-weight: bolder;
+}
+.im4{
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgb(184, 184, 184);
+}
+
+.icons4{
+    background-color:  rgb(2, 2, 55);
+    color: white;
+    margin-left: 60px;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+.icons4:hover{
+    transition: all 0.4s ease-in;
+}
+.icon4{
+    display: flex;
+    align-items: center;
+
+}
+
+
+/* container 5 */
+.cont5{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    
+}
+
+.box2{
+    background-color: rgb(2, 2, 55);
+    height: 25vh;
+    opacity: 0.9;
+    width: 40%;
+    border-radius: 5px;
+}
+.box1{
+    background-image:url(M-e1.jpg) ;
+    width: 40%;
+    background-size: cover;
+    height: 25vh;
+    border-radius: 5px;
+}
+.p5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: white;
+    font-weight: 300;
+}
+.h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    opacity: 0.9;
+}
+.bt5{
+    padding: 9px;
+    background-color: white;
+    border-radius: 6px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+
+.bt5:hover{
+    background-color: rgb(100, 100, 199);
+    color: white;
+    transition: all 0.6s ease;
+}
+/* container 6 */
+.ct6{
+    padding: 20px;
+    margin: 20px;
+}
+.cont6{
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+}
+.h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p6{
+    opacity: 0.8;
+    color: darkblue;
+}
+.p61{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.em{
+    border-radius: 4px ;
+    border: 1px solid darkblue;
+    opacity: 0.6;
+    padding: 9px;
+}
+.bt6{
+    padding: 9px;
+    background-color: rgb(2, 2, 55) ;
+    opacity: 0.9;
+    color: white;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.bt6:hover{
+    background-color: rgb(100, 100, 199);
+    color: white;
+    transition: all 0.6s ease;
+}
+    
+/* footer */
+.foot{
+    display: flex;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.hf{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    padding-right: 10px;
+    font-size: x-large;
+    font-weight: 700;
+    
+}
+.pf{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.ht{
+    color: darkblue;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px;
+}
+.ft ul{
+    list-style-type: none;
+    padding: 5px;
+}
+.ft ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: grey;
+}
+.ft ul li a:hover{
+    text-decoration: underline;
+    transition: all 0.4s ease;
+}
