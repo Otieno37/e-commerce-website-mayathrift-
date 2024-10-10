@@ -1,11 +1,6 @@
-# e-commerce-website-mayathrift-\
-![Screenshot 2024-10-02 133617](https://github.com/user-attachments/assets/29291fb1-6fa8-498c-b057-b5f71dbda894)
-![Screenshot 2024-10-02 133635](https://github.com/user-attachments/assets/d2ad04b1-857a-4031-a0c4-16d4ed8c3e8d)
-![Screenshot 2024-10-02 133655](https://github.com/user-attachments/assets/a08c7de9-aa45-4a72-993c-02874e0d604b)
-![Screenshot 2024-10-02 133710](https://github.com/user-attachments/assets/60610790-4387-4208-92e5-96e30970761d)
-![Screenshot 2024-10-02 133722](https://github.com/user-attachments/assets/8224d431-2cad-4c3c-a3af-1ccff199cc2d)
-
-
-
-
-
+![Screenshot 2024-10-10 160924](https://github.com/user-attachments/assets/a54bc691-0023-4b1c-ad36-391f742ad70c)
+![Screenshot 2024-10-10 160939](https://github.com/user-attachments/assets/f14327bc-9683-45b9-a4cd-c26d911c3ba4)
+![Screenshot 2024-10-10 161001](https://github.com/user-attachments/assets/f1367148-9808-449e-821d-6c92eddeddeb)
+![Screenshot 2024-10-10 161017](https://github.com/user-attachments/assets/af3ac5f5-d037-4b95-b03d-7af99af5f857)
+![Screenshot 2024-10-10 161035](https://github.com/user-attachments/assets/352cfcaf-bdd8-4711-91f5-5e24b99c571a)
+![Screenshot 2024-10-10 161050](https://github.com/user-attachments/assets/4b16a055-f9d0-43cb-a50b-417e8911f7d3)
